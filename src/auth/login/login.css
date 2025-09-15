@@ -1,0 +1,114 @@
+.butt-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.sep-one {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(104, 101, 101);
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.sep-two {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(104, 101, 101);
+    margin-top: 30px;
+}
+
+.main-container-login {
+    background: linear-gradient(rgba(32, 32, 32, 0.9) 10%, rgba(32, 32, 32, 0.9) 20%, rgb(0, 0, 0) 100%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.main-container-login h1 {
+    text-align: center;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin-top: 10px;
+    width: 50%;
+    gap: 10px;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.sup-container-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.butt-group button {
+    background-color: #121212;
+    border: 1px solid rgb(114, 111, 111);
+    color: white;
+    font-weight: 600;
+}
+
+.butt-group button:hover {
+    border: 1px solid white;
+}
+
+.butt-group input {
+    border: 1px solid grey;
+    background-color: rgb(77, 76, 76);
+    color: white;
+    margin-left: -10px;
+}
+
+.butt-group input::placeholder {
+    color: rgb(145, 143, 143);
+}
+
+.butt-group input:hover {
+    border: 1px solid white;
+}
+
+.login-butt {
+    margin-top: 30px;
+}
+
+.login-butt:hover {
+    scale: 1.05;
+}
+
+.heading-one {
+    font-size: 50px;
+}
+
+.forgot-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.sub-container a {
+    color: white;
+}
+
+.sub-container a:hover {
+    color: green;
+}
+
+.span-signup a {
+    margin-left: 10px;
+}
+
+.span-signup {
+    margin-bottom: 20px;
+}

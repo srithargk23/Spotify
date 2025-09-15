@@ -1,0 +1,8 @@
+.artistsonglist {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 2rem 2rem;
+    justify-items: center;
+}

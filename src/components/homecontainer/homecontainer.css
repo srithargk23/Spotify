@@ -1,0 +1,57 @@
+.homecontainer {
+    width: 95%;
+    height: 7rem;
+    border-radius: 0.5rem;
+    background-color: rgb(24, 23, 23);
+    margin: 0.5rem auto;
+    font-size: 1.6rem;
+    display: grid;
+    align-content: space-around;
+    color: white;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.homeIcon a {
+    display: flex;
+}
+
+.searchIcon a {
+    display: flex;
+}
+
+.homeIcon h3 {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.homeIcon svg {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.searchIcon svg {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+
+.searchIcon h3 {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.homeIcon .svg-inline--fa {
+    margin: 0rem 1.6rem;
+}
+
+.searchIcon .svg-inline--fa {
+    margin: 0rem 1.6rem;
+}

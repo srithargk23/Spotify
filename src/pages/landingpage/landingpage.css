@@ -1,0 +1,59 @@
+.landingpage-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+    position: relative;
+}
+
+.left-bar {
+    flex: 0 0 25%;
+    height: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.right-bar {
+    flex: 1;
+    height: 100%;
+    overflow-y: auto;
+    width: 100%;
+    background-color: rgb(24, 23, 23);
+    margin-top: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.rightBarArea {
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+.login {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    z-index: 2000;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.login a {
+    border-radius: 0.5rem;
+    background-color: rgb(5, 53, 5);
+    color: white;
+    text-decoration: none;
+    height: 3rem;
+    width: 7rem;
+    margin: 5%;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+.login a:hover {
+    background-color: rgb(12, 110, 12);
+}

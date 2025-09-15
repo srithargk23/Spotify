@@ -1,0 +1,15 @@
+.main-input {
+    width: 324px;
+    height: 48px;
+    padding: 8px 48px 8px 14px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 15px;
+}

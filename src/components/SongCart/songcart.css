@@ -1,0 +1,79 @@
+.cart {
+    height: 18rem;
+    width: 13rem;
+    border-radius: 0.6rem;
+    background-color: #2b2b2b;
+    padding: 1.1rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.play-button {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(120, 243, 126);
+    right: 0.5rem;
+    bottom: 0.5rem;
+    display: none;
+    text-align: center;
+    font-size: 1.4rem;
+    padding-top: 0.5rem;
+}
+
+.cart:hover .play-button {
+    display: block;
+    transform: translateY(-10px);
+    transition: transform 1s ease-out;
+    cursor: pointer;
+}
+
+.cart:hover {
+    background-color: rgba(206, 200, 200, 0.2);
+    transition: background-color 0.5s ease-out;
+}
+
+.image-container {
+    height: 65%;
+    width: 100%;
+    margin: auto;
+    border-radius: 0.7rem;
+    position: relative;
+}
+
+.song-discription {
+    margin-top: 10px;
+    width: 100%;
+    line-height: 1.5rem;
+}
+
+.song-discription h4 {
+    color: white;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.song-discription p {
+    color: grey;
+    font-weight: 400;
+}
+
+.cart img {
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+
+}
+
+.heart-icon {
+    position: absolute;
+    bottom: 1.7rem;
+    left: 0.5rem;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.heart-icon:hover {
+    cursor: pointer;
+}

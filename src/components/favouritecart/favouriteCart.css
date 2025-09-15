@@ -1,0 +1,102 @@
+.fav-song-cart {
+    display: flex;
+    background-color: inherit;
+    height: 3.9rem;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+.fav-song-cart:hover {
+    background-color: rgba(131, 128, 128, 0.2);
+}
+
+.fav-song-cart a:hover {
+    text-decoration: underline;
+}
+
+.fav-song-cart-link {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.fav-song-cart-album {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fav-song-cart-album a {
+    margin-left: -5rem;
+}
+
+.fav-song-cart a {
+    text-decoration: none;
+    color: black;
+}
+
+.fav-song-cart:hover .fav-index {
+    display: none;
+}
+
+.fav-index-no {
+    display: none;
+}
+
+.fav-index-no:hover {
+    cursor: pointer;
+}
+
+.fav-song-cart:hover .fav-index-no {
+    display: block;
+}
+
+.fav-img {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fav-img img {
+    height: 75%;
+    width: 3rem;
+    border-radius: 0.5rem;
+}
+
+.fav-heart {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.fav-heart:hover {
+    cursor: pointer;
+}
+
+.fav-index {
+    color: grey;
+}
+
+.fav-duration {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    color: grey;
+}
+
+.heading {
+    font-weight: 500;
+}
+
+.artistName {
+    font-size: 0.9rem;
+}
+
+.albumName {
+    font-size: 0.9rem;
+}

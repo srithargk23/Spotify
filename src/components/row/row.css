@@ -1,0 +1,43 @@
+.row {
+    width: 100%;
+    min-height: 25rem;
+    background-color: rgb(24, 23, 23);
+}
+
+.row-heading-container {
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 0.3rem;
+    margin: auto;
+    margin-bottom: 1.3rem;
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.row-song-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0.8rem 0.3rem;
+
+}
+
+button {
+    background-color: rgb(66, 64, 64);
+    outline: none;
+    color: white;
+    border-radius: 0.3rem;
+    margin-top: 0.3rem;
+    border: none;
+    padding: 0.4rem;
+}
+
+button:hover {
+    background-color: rgb(85, 82, 82);
+    cursor: pointer;
+}

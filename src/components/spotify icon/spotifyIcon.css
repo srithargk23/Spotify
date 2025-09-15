@@ -1,0 +1,16 @@
+.spot-svg {
+    display: flex;
+    background-color: black;
+    color: white;
+    fill: white;
+    padding: 15px;
+
+}
+
+.spot-svg svg {
+    height: 60px;
+}
+
+.spot-svg h2 {
+    margin-top: 10px;
+}

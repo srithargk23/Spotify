@@ -1,0 +1,8 @@
+.main-butt {
+    height: 48px;
+    width: 324px;
+    padding: 7px 31px;
+    border-radius: 25px;
+    outline: none;
+    text-transform: capitalize;
+}

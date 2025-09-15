@@ -1,0 +1,14 @@
+.songheadingcontainer {
+    width: 95%;
+    height: 96%;
+    border-radius: 0.5rem;
+    background-color: rgb(24, 23, 23);
+    padding-bottom: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1rem;
+    padding-bottom: 10.5rem;
+}

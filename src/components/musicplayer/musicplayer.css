@@ -1,0 +1,14 @@
+.musicplayer {
+    width: 100%;
+    height: 11%;
+    position: absolute;
+    bottom: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+}
+
+.musicplayer .specific-class-of-spotifywebplayer {
+    background-color: blue;
+}
